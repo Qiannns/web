@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "deploy": "npm run build && echo '构建完成，上传dist文件夹到托管服务'"
+    "deploy": "npm run build && echo '构建完成，上传dist文件夹到托管服务'",
+    "test:config": "node test-build.js"
   },
   "dependencies": {
     "react": "^18.3.1",
